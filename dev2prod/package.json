@@ -1,0 +1,60 @@
+// install express.js, and all necessary modules
+// to receive data on webhooks from github and updates the main server code and restarts it
+
+{
+    "name": "dev2prod d2p d2t2p dev2test2prod dev-test-prod",
+    "version": "1.0.0",
+    "description": "A simple express.js server to receive webhooks from github and update the main server code and restart it",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1",
+        "body-parser": "^1.19.0",
+        "simple-git": "^2.37.0",
+        "child_process": "^1.0.2"
+    },
+    "engines": {
+        "node": ">=12.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/yourusername/dev2prod.git"
+    },
+    "bugs": {
+        "url": "https://github.com/yourusername/dev2prod/issues"
+    },
+    "homepage": "https://github.com/yourusername/dev2prod#readme",
+    "keywords": [
+        "express",
+        "webhooks",
+        "github",
+        "deployment",
+        "automation"
+    ],
+    "devDependencies": {},
+    "private": true,
+    "files": [
+        "index.js"
+    ],
+    "config": {
+        "port": 3000,
+        "repoPath": "../", // Path to the main server code
+        "branch": "main" // Branch to pull updates from
+    },
+    "enginesStrict": true,
+    "activationEvents": [
+        "onCommand:dev2prod.start",
+        "onCommand:dev2prod.stop"
+    ],
+    "api": "none",
+    "categories": [
+        "Other"
+    ],
+    "sponsor": {
+        "url": "https://github.com/yourusername/dev2prod"
+    }
+}
