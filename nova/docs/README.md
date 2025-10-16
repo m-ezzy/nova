@@ -37,3 +37,25 @@ scripts: {
 }
 auto_install/install_automatically: boolean
 is_app/is_application/app/application: boolean
+
+# Module Folder Structure
+controllers
+models
+data
+  data
+  demo
+  views
+  templates
+  security
+tests
+docs
+static
+  css
+  js
+  assets
+    images
+    fonts
+wizards
+reports
+
+index.ts/manifest.ts/module.ts/main.ts
