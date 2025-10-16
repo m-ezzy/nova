@@ -1,3 +1,21 @@
+# what technologies to use?
+python
+javascript
+    Node.js
+    Deno
+    Bun
+typeScript
+java
+.NET (c#)
+Ruby
+Rust
+Go
+
+start the git repo again with minial first commit on main or dev branch "louis, this is the beginning of a beautiful project/framework!"
+dev branch will have all the code right now, merged in main if it is stable and final and correct/efficient/best way.
+
+rename nova to umbrella and umbrella-nextjs to nova
+
 all one needs for building an framework/MIS system like odoo or django is an entity-relationship diagram data. everything - UI, models, logic will be created and displayed based on that data.
 
 **One graph to rule them all!**
@@ -88,18 +106,6 @@ fields: model_id, record_id, field_name, change_type, old_value, new_value, chan
 
 change_type: create, update, delete
 if there is no field_name then model is created or deleted.
-
-# what technologies to use?
-python
-javascript
-    Node.js
-    Deno
-    Bun
-typeScript
-java
-.NET (c#)
-Ruby
-Rust
 
 #
 you'll need certain apps to test the framework as you are building it. how about...........a project management system?
